@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #151514;
+}
+
+header {
+    background-color: #113C0B;
+    padding: 20px;
+    text-align: center;
+    margin: 0 0 12px 0;
+    border-radius: 10px;
+    outline: none;
+    border-color: #2EFF00;
+    box-shadow: 0 0 20px #2EFF00;
+}
+
+    header h1 {
+        color: white;
+        margin: 0;
+    }
+
+nav {
+    background-color: #113C0B;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    nav li {
+        margin-right: 20px;
+        text-decoration: none;
+        color: #888;
+        margin-right: 2px;
+        border: 1px solid transparent;
+        border-radius: 4px 4px 0 0;
+        transition: color 0.5s ease;
+        position: relative;
+        display: block;
+        font-family: Impact, sans-serif;
+        font-size: 18pt;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+        line-height: 23px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+    }
+
+main {
+    padding: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #113C0B;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border-color: #2EFF00;
+    box-shadow: 0 0 15px #2EFF00;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #00FF02;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+    text-decoration: green wavy underline;
+    color: white;
+    background-color: transparent;
+}
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+td, th {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    border-style: inset;
+    border-color: #113C0B;
+}
+
+th {
+    background-color: #dddddd;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
